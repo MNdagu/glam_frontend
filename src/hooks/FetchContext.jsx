@@ -6,7 +6,7 @@ export function FetchProvider({ children }) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  const baseURL = 'https://api-beauty.boogiecoin.com/';  
+  const baseURL = 'glam-backend.onrender.com';  
 
   // Helper function to handle fetch requests
   const handleFetch = useCallback(async (endpoint, method, body = null) => {
